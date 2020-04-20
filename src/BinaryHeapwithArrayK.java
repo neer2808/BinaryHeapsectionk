@@ -27,6 +27,8 @@ public class BinaryHeapwithArrayK {
     }
     heapify(parent);
   }
+
+  // represents level order traversal
   public void display()
   {
     for(int i =1;i<=sizeofheap;i++)
